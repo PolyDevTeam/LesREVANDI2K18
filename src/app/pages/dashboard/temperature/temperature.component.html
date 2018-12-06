@@ -5,7 +5,7 @@
 
       <div class="slider-container">
         <ngx-temperature-dragger [(value)]="temperature" (power)="temperatureOff = !$event"
-                                 [min]="12" [max]="30" [disableArcColor]="colors.layoutBg"
+                                 [min]="-60" [max]="120" [disableArcColor]="colors.layoutBg"
                                  [fillColors]="colors.temperature">
 
           <div class="slider-value-container"  [ngClass]="{ 'off': temperatureOff }">
