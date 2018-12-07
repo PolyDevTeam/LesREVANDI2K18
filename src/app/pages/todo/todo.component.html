@@ -1,0 +1,31 @@
+
+
+ <nb-layout>
+    <nb-layout-header>
+      <input [(ngModel)]="taskToAdd" style="margin-right:10px;" type="text" nbInput placeholder="Nouvelle tâche"> <button nbButton (click)="add()" status="success">Ajouter</button>
+    </nb-layout-header>
+    <nb-layout-column>
+        <nb-card size="medium">
+            <nb-card-header>
+              Tâches à compléter
+            </nb-card-header>
+            <nb-list>
+              <nb-list-item (click)="checked(task)" *ngFor="let task of activeTasks">
+                {{ task.label }}
+              </nb-list-item>
+            </nb-list>
+          </nb-card>
+    </nb-layout-column>
+    <nb-layout-column>
+        <nb-card size="medium">
+            <nb-card-header>
+                Tâches effectuées
+            </nb-card-header>
+            <nb-list>
+              <nb-list-item (click)="unchecked(task)" *ngFor="let task of completedTasks">
+                {{ task.label }}
+              </nb-list-item>
+            </nb-list>
+          </nb-card>
+    </nb-layout-column>
+  </nb-layout>
