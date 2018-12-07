@@ -33,6 +33,27 @@ export const botReplies = [
     },
   },
   {
+    regExp: /([l,L][o,O][l,L])|([m,M][d,D][R,r])/g,
+    answerArray: [''],
+    type: 'pic',
+    reply: {
+      text: '',
+      reply: false,
+      date: new Date(),
+      type: 'file',
+      files: [
+        {
+          url: 'https://i.kym-cdn.com/photos/images/newsfeed/001/073/580/00c.png',
+          type: 'image/png',
+        },
+      ],
+      user: {
+        name: 'Dieu',
+        avatar: botAvatar,
+      },
+    },
+  },
+  {
     regExp: /([D,d]ead)/g,
     answerArray: ['Tu es mort ?', 'Et la tu es mort ?'],
     type: 'pic',
