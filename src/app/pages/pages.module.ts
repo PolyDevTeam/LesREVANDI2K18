@@ -7,7 +7,6 @@ import { PagesRoutingModule } from './pages-routing.module';
 import { ThemeModule } from '../@theme/theme.module';
 import { MiscellaneousModule } from './miscellaneous/miscellaneous.module';
 import { ChatBotModule } from './chatbot/chatbot.module';
-import { TodoComponent } from './todo/todo.component';
 
 const PAGES_COMPONENTS = [
   PagesComponent,
@@ -23,8 +22,7 @@ const PAGES_COMPONENTS = [
     ChatBotModule,
   ],
   declarations: [
-    ...PAGES_COMPONENTS,
-    TodoComponent,
+    ...PAGES_COMPONENTS
   ],
 })
 export class PagesModule {
