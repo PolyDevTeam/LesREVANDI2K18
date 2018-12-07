@@ -27,151 +27,10 @@ export const botReplies = [
       reply: false,
       date: new Date(),
       user: {
-        name: 'Bot',
+        name: 'Dieu',
         avatar: botAvatar,
       },
     },
-  },
-  {
-    regExp: /([I,i]mage)|(IMAGE)|([P,p]ic)|(Picture)/g,
-    answerArray: ['Hey look at this!', 'Ready to work', 'Yes, master.'],
-    type: 'pic',
-    reply: {
-      text: '',
-      reply: false,
-      date: new Date(),
-      type: 'file',
-      files: [
-        {
-          url: '',
-          type: 'image/jpeg',
-        },
-      ],
-      user: {
-        name: 'Bot',
-        avatar: botAvatar,
-      },
-    },
-  },
-  {
-    regExp: /([G,g]if)|(GIF)/g,
-    type: 'gif',
-    answerArray: ['No problem', 'Well done', 'You got it man'],
-    reply: {
-      text: '',
-      reply: false,
-      date: new Date(),
-      type: 'file',
-      files: [
-        {
-          url: '',
-          type: 'image/gif',
-        },
-      ],
-      user: {
-        name: 'Bot',
-        avatar: botAvatar,
-      },
-    },
-  },
-  {
-    regExp: /([F,f]ile group)|(FILE)/g,
-    type: 'group',
-    answerArray: ['Take it!', 'Job Done.', 'As you wish'],
-    reply: {
-      text: '',
-      reply: false,
-      date: new Date(),
-      type: 'file',
-      files: [
-        {
-          url: fileLink,
-          icon: 'nb-compose',
-        },
-        {
-          url: '',
-          type: 'image/gif',
-        },
-        {
-          url: '',
-          type: 'image/jpeg',
-        },
-      ],
-      icon: 'nb-compose',
-      user: {
-        name: 'Bot',
-        avatar: botAvatar,
-      },
-    },
-  },
-  {
-    regExp: /([F,f]ile)|(FILE)/g,
-    type: 'file',
-    answerArray: ['Take it!', 'Job Done.', 'As you wish'],
-    reply: {
-      text: '',
-      reply: false,
-      date: new Date(),
-      type: 'file',
-      files: [
-        {
-          url: fileLink,
-          icon: 'nb-compose',
-        },
-      ],
-      icon: 'nb-compose',
-      user: {
-        name: 'Bot',
-        avatar: botAvatar,
-      },
-    },
-  },
-  {
-    regExp: /([M,m]ap)|(MAP)/g,
-    type: 'map',
-    answerArray: ['Done.', 'My sight is yours.', 'I shall be your eyes.'],
-    reply: {
-      text: '',
-      reply: false,
-      date: new Date(),
-      type: 'map',
-      latitude: 53.914321,
-      longitude: 27.5998355,
-      user: {
-        name: 'Bot',
-        avatar: botAvatar,
-      },
-    },
-  },
-  {
-    regExp: /([Q,q]uote)|(QUOTE)/g,
-    type: 'quote',
-    answerArray: ['Quoted!', 'Say no more.', 'I gladly obey.'],
-    reply: {
-      text: '',
-      reply: false,
-      date: new Date(),
-      type: 'quote',
-      quote: '',
-      user: {
-        name: 'Bot',
-        avatar: botAvatar,
-      },
-    },
-  },
-  {
-    regExp: /([T,t]est)|TEST/g,
-    type: 'text',
-    answerArray: ['This is the test of captain Jack Sparrow'],
-    reply: {
-      text: '',
-      reply: false,
-      date: new Date(),
-      user: {
-        name: 'Bot',
-        avatar: botAvatar
-      }
-    }
   },
   {
     regExp: /([D,d]ead)/g,
@@ -189,7 +48,7 @@ export const botReplies = [
         },
       ],
       user: {
-        name: 'Bot',
+        name: 'Dieu',
         avatar: botAvatar,
       },
     },
@@ -203,7 +62,7 @@ export const botReplies = [
       reply: false,
       date: new Date(),
       user: {
-        name: 'Bot',
+        name: 'Dieu',
         avatar: botAvatar,
       },
     },

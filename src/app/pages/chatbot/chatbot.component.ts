@@ -30,7 +30,7 @@ export class ChatBotComponent {
       type: files.length ? 'file' : 'text',
       files: files,
       user: {
-        name: 'Jonh Doe',
+        name: 'Vous',
         avatar: 'https://i.gifer.com/no.gif',
       },
     });
