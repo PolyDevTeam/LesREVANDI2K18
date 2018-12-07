@@ -16,5 +16,10 @@ export const MENU_ITEMS: NbMenuItem[] = [
     title: 'Todo List',
     icon: 'ion-clipboard',
     link: '/'
+  },
+  {
+    title: 'Chat',
+    icon: 'fas fa-comments',
+    link: '/pages/chat'
   }
 ];
