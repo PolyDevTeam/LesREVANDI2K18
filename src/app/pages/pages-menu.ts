@@ -21,5 +21,15 @@ export const MENU_ITEMS: NbMenuItem[] = [
     title: 'Chat',
     icon: 'fas fa-comments',
     link: '/pages/chat'
+  },
+  {
+    title: 'IHM 3D',
+    icon: 'fa fa-binoculars',
+    url: 'http://54.36.112.214/'
+  },
+  {
+    title: 'Jeux',
+    icon: 'fas fa-gamepad',
+    url: 'http://54.36.112.214/FlappyOwl'
   }
 ];
