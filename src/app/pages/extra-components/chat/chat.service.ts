@@ -5,8 +5,6 @@ import { botReplies, gifsLinks, imageLinks } from './bot-replies';
 
 @Injectable()
 export class ChatService {
-
-
   loadMessages() {
     return messages;
   }

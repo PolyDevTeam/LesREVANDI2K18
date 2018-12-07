@@ -10,4 +10,5 @@
 
 export const environment = {
   production: false,
+  angularBot: '13be70c1b5b34bfabcc550f26cc926e2'
 };
